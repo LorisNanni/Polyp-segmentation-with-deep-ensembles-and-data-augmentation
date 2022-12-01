@@ -3,4 +3,4 @@ Polyp segmentation with deep ensembles and data augmentation
 
 See the file "ExampleDataAugmentationDA2.m"  to replicate the data augmentation named DA2
 
-the saveMask.m file inside the .rar saves by normalizing each segmentation mask between [0,255]. To save without normalizing use the file saveMaskNoN.m
+the file saveMaskNoN.m transforms the segmentation mask to uint8 before to save it as a png file (you can use it instead of the saveMask.m file inside the .rar). 
